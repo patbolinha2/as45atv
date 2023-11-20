@@ -65,4 +65,4 @@ for numero in [
         unidade = ""
 
     
-    print("{}{}{}{}{}".format(centena,separador,dezena,separador2,unidade))
+    print("{}{}{}{}{}".format(centena,separador1,dezena,separador2,unidade))

@@ -13,5 +13,5 @@ else:
     else:
         raiz1 = (-b + (delta ** (1 / 2))) / (2 * a)
         raiz2 = (-b - (delta ** (1 / 2))) / (2 * a)
-        print('f"Delta maior que zero. A raíz 1 é {raiz1}, e a raiz 2 é {raiz2}"')
+        print("Delta maior que zero. A raíz 1 é {}, e a raiz 2 é {}".format(raiz1,raiz2))
             

@@ -1,18 +1,18 @@
-valor = int(input("Digite o valor a ser sacado (entre 10 e 600): "))
+vl = int(input("Digite o valor a ser sacado (entre 10 e 600): "))
 if (
-    valor < 10 or valor > 600
+    vl < 10 or vl > 600
 ): 
     print("Valor inválido!")
 else:
-    cem = valor // 100  
-    valor -= cem * 100 
-    cinquenta = valor // 50 
-    valor -= cinquenta * 50
-    dez = valor // 10
-    valor -= dez * 10
-    cinco = valor // 5
-    valor -= cinco * 5
-    um = valor 
+    cem = vl // 100  
+    vl -= cem * 100 
+    cinquenta = vl // 50 
+    vl -= cinquenta * 50
+    dez = vl // 10
+    vl -= dez * 10
+    cinco = vl // 5
+    vl -= cinco * 5
+    um = vl 
     if cem > 0:
         print("{} nota(s) de cem".format(cem))
     if cinquenta > 0:

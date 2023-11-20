@@ -22,15 +22,15 @@ elif carne == "P" or carne == "p":
         preco_total = peso * 7.8
     else:
         preco_total = peso * 6.9
-print(f"Quantidade: {peso:.2f}Kg")
-print(f"Preço total: R${preco_total:.2f}")
+print("Quantidade: {}Kg".format(peso))
+print("Preço total: R${}".format(preco_total))
 if pagamento == "D" or pagamento == "d":
     print("Tipo de pagamento: Dinheiro")
     desconto = 0
-    print(f"Desconto: R${desconto:.2f}")
-    print(f"Valor a pagar: R${(preco_total - desconto):.2f}")
+    print("Desconto: R${}".format(desconto))
+    print("Valor a pagar: R${}".format(preco_total-desconto))
 elif pagamento == "C" or pagamento == "c":
     print("Tipo de pagamento: Cartão Tabajara")
     desconto = preco_total * 5 / 100
-    print(f"Desconto: R${desconto:.2f}")
-    print(f"Valor a pagar: R${(preco_total - desconto):.2f}")
+    print("Desconto: R${}".format(desconto))
+    print("Valor a pagar: R${}".format(preco_total-desconto))

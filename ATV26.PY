@@ -14,4 +14,4 @@ else:
 if (morango + maca) > 8 or valor > 25:
     valor -= valor * 10 / 100
 
-print(f"O valor a ser pago é R${valor:.2f}")
+print("O valor a ser pago é R${}".format(valor))

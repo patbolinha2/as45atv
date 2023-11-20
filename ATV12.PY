@@ -19,11 +19,12 @@ total_de_descontos = IR + INSS
 salario_liquido = salario_bruto - total_de_descontos
 
 print(
-    f"\nSalário Bruto     : R${salario_bruto:.2f}",
-    f"\n(-) IR (5%)       : R${IR:.2f}",
-    f"\n(-) INSS ( 10%)   : R${INSS:.2f}",
-    f"\nFGTS (11%)        : R${FGTS:.2f}",
-    f"\nTotal de descontos: R${total_de_descontos:.2f}",
-    f"\nSalário Liquido   : R${salario_liquido:.2f}",
+    "\nSalário Bruto     : R${}",
+    "\n(-) IR (5%)       : R${}",
+    "\n(-) INSS ( 10%)   : R${}",
+    "\nFGTS (11%)        : R${}",
+    "\nTotal de descontos: R${}",
+    "\nSalário Liquido   : R${}"
+    .format(salario_bruto,IR,INSS,FGTS,total_de_descontos,salario_liquido),
 )
 
